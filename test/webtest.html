@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <script src="../dist/skulpt.min.js"></script>
+        <script src="../dist/skulpt-stdlib.js"></script>
+    </head>
+    <body>
+        <script>
+            Sk.configure({});
+            let module = Sk.importMainWithBody('main', true, "print('Hello World')");
+            console.log(module);
+        </script>
+    </body>
+</html>
